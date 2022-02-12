@@ -1,0 +1,40 @@
+
+ .w3-bar-block .w3-bar-item {
+     padding: 20px 
+}
+
+ @media screen and (max-width: 600px) {
+     .w3-grid-template {
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+    }
+     .w3-image {
+         width: auto;
+         height: auto;
+         object-fit: fill;
+    }
+}
+ @media screen and (min-width: 601px) {
+     .w3-grid-template {
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+    }
+    
+     .w3-image {
+         width: auto;
+         height: auto;
+         object-fit: fill;
+    }
+}
+
+ @media screen and (min-width: 1000px) {
+     .w3-grid-template {
+         display: grid;
+         grid-template-columns: repeat(5, 1fr);
+    }
+     .w3-image {
+        width: auto;
+        height: auto;
+     object-fit: fill;
+   }
+}
